@@ -1,3 +1,4 @@
 POST /caso3.html from 127.0.0.1: nombre=sapo+perro
 POST /caso3.html from 127.0.0.1: nombre=El+mocho+de+Juanma
 [POST] /caso3.html - nombre=vamos+goku
+[POST] /caso3.html - nombre=Yo_le_meto_mucho

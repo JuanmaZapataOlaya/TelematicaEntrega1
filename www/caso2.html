@@ -1,28 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <title>Caso 2 - Videos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caso 2 - Videos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Caso 2</h1>
+    <div class="container">
+        <h1>Caso 2 - Videos</h1>
 
-  <nav>
-    <a href="caso1.html">Ir a Caso 1</a> |
-    <a href="caso3.html">Ir a Caso 3</a> |
-    <a href="caso4.html">Ir a Caso 4</a>
-  </nav>
+        <nav>
+            <a href="caso1.html">Ir a Caso 1</a>
+            <a href="caso3.html">Ir a Caso 3</a>
+            <a href="caso4.html">Ir a Caso 4</a>
+        </nav>
 
-  <h2>Video 1: Olvidate.mp4</h2>
-  <video width="320" height="240" controls autoplay muted loop>
-    <source src="Olvidate.mp4" type="video/mp4">
-    Tu navegador no soporta este video.
-  </video>
+        <div class="video-container">
+            <div>
+                <h2>Video 1: Olvidate.mp4</h2>
+                <video width="320" height="240" controls autoplay muted loop>
+                    <source src="Olvidate.mp4" type="video/mp4">
+                    Tu navegador no soporta este video.
+                </video>
+            </div>
+            <div>
+                <h2>Video 2: Olvidate2.mp4</h2>
+                <video width="320" height="240" controls autoplay muted loop>
+                    <source src="Olvidate2.mp4" type="video/mp4">
+                    Tu navegador no soporta este video.
+                </video>
+            </div>
+        </div>
 
-  <h2>Video 2: Olvidate2.mp4</h2>
-  <video width="320" height="240" controls autoplay muted loop>
-    <source src="Olvidate2.mp4" type="video/mp4">
-    Tu navegador no soporta este video.
-  </video>
+        <footer>
+            <p>Proyecto Web Server - Telemática</p>
+        </footer>
+    </div>
 </body>
 </html>
