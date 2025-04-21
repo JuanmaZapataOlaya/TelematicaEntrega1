@@ -142,5 +142,12 @@ Contenido en `postdata.txt`:
 
 ---
 
+## Conclusiones
+El proyecto implementa correctamente el funciuonamiento de un servidor web HTTP en el lenguaje C. Usando las solicitudes de GET, HEAD, Y POST. Además, logramos desplegar exitosamente el proyecto en un dominio propio usando AWS. 
+
+## Referencias
+https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/
+
+
 Proyecto de Web Server para Telemática 2025
 
